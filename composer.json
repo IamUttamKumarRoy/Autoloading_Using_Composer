@@ -1,9 +1,17 @@
 {
 	"repositories": [
-	    {
-		"url": "https://github.com/IamUttamKumarRoy/Autoloading_Using_Composer.git",
-		"type": "git"
-	    }
+		{
+		    "type":"package",
+		    "package": {
+		      "name": "IamUttamKumarRoy/Autoloading_Using_Composer",
+		      "version":"master",
+		      "source": {
+		          "url": "https://github.com/IamUttamKumarRoy/Autoloading_Using_Composer.git",
+		          "type": "git",
+		          "reference":"master"
+		        }
+		    }
+		}
 	],
     "autoload": {
         "psr-4": {
